@@ -97,3 +97,5 @@ export const CAMPSITE_SCOPE = 'campsite'
 export const COUNTED_ROLES = ['admin', 'member']
 
 export * from './slack'
+
+export const MIXPANEL_TOKEN = process.env.NEXT_PUBLIC_MIXPANEL_TOKEN
